@@ -84,6 +84,7 @@ namespace FileDownloader
                 }
             }
 
+
             if (imageList.Count > 0)
             {
                 using (FileStream fileStream = new FileStream(imageList[0].FileName, FileMode.OpenOrCreate))
