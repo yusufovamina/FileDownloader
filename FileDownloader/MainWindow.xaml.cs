@@ -78,9 +78,10 @@ namespace FileDownloader
 
                         Image img = new Image(id, fileName, ImageBytes);
                         imageList.Add(img);
-                        MessageBox.Show("Successfull operation");
+                        
 
-                    }
+                    }MessageBox.Show("Successfull operation");
+                        ImagePlace.Source = new BitmapImage(new Uri(filePath.Text, true));
                 }
             }
 
